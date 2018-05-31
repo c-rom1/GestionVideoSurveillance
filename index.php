@@ -33,6 +33,7 @@ l'espace disponible
      
         <link href="css/bootstrap.css" rel="stylesheet">
         <link href="css/style.css" rel="stylesheet">
+        <link rel="shortcut icon" href="images/logo.png" type="image/gif" />
 
     </head>
     
