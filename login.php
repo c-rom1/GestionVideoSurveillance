@@ -56,5 +56,11 @@ page d'authentification
                 </div>
             </div>
         </div>
+        <footer id="footer">
+            <div class="text-center ">
+                <br />
+                <p>&copy; 2018 <a href="http://www.arnes-consulting.fr/">Arn&egrave;s-Consulting</a>.</p>
+            </div>
+        </footer>
     </body>
 </html>
