@@ -37,7 +37,7 @@ class affichageClass {
                     print_r("</li>");
                 } else if ($date != $path2['date']) {
                     $date = $path2['date'];
-                    print_r("</ul><ul id='photoDate".$nbDiffDate++."'><li>".$path2['date']);
+                    print_r("</ul><ul id='photoDate".$nbDiffDate++."' class='styleDateUL'><li class='styleDateLI'>".$path2['date']);
                     print_r("<button value='' onclick=''><img src='images/suppr.png'/></button>");
                     print_r("</li>");
                 }
@@ -75,7 +75,7 @@ class affichageClass {
                     print_r("</li>");
                 } else if ($date != $path2['date']) {
                     $date = $path2['date'];
-                    print_r("</ul><ul id='photoDate".$nbDiffDate++."'><li>".$path2['date']);
+                    print_r("</ul><ul id='photoDate".$nbDiffDate++."' class='styleDateUL'><li class='styleDateLI'>".$path2['date']);
                     print_r("<button value='' onclick=''><img src='images/suppr.png'/></button>");
                     print_r("</li>");
                 }
