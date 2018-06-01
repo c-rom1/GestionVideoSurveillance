@@ -16,7 +16,7 @@ page d'authentification
         <!--
         Cette ligne concerne uniquement les mobiles. 
         On demande que l'affichage occupe tout 
-        l'espace disponible
+        l'espace disponible - responsive
         -->        
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
