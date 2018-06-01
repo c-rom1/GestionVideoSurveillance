@@ -100,3 +100,13 @@ div.fin{
 .login {
     padding-top: 10px;
 }
+
+.styleDateUL {
+    padding-left: 0px;
+}
+
+.styleDateLI {
+    margin-left: -25px; 
+    font-style: italic;
+    border-bottom:#d4d3d3 1px solid;
+}
