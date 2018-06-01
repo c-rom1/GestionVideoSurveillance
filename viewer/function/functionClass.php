@@ -15,9 +15,20 @@ class functionClass {
 
         foreach (new RecursiveDirectoryIterator($path) as $file) {
             if (!is_dir($file)) {
-                $files[] = new SplFileInfo($file);
+                //$files[] = new SplFileInfo($file);
+                $fileInfo = new SplFileInfo($file);
+                $files[] = array('date' => date("Ymd",$fileInfo->getCTime()), 
+                    'path' => $fileInfo->getPathname(), 
+                    'name' => $fileInfo->getFilename());
             }
         }
+        /* récupere la liste de colonne date */
+        foreach ($files as $key => $row) {
+            $date[$key]  = $row['date'];
+        }
+        /* tri du tableau via la colonne date 
+         * par ordre croissant*/
+        array_multisort($date, SORT_ASC, $files);
         return $files;
     }
 
