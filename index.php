@@ -33,6 +33,7 @@ l'espace disponible
      
         <link href="css/bootstrap.css" rel="stylesheet">
         <link href="css/style.css" rel="stylesheet">
+        <link rel="shortcut icon" href="images/logo.png" type="image/gif" />
 
     </head>
     
@@ -79,6 +80,12 @@ l'espace disponible
                 </div>
             </div>
         </div>
+        <<footer id="footer">
+            <div class="text-center ">
+                <br />
+                <p>&copy; 2018 <a href="http://www.arnes-consulting.fr/">Arn&egrave;s-Consulting</a>.</p>
+            </div>
+        </footer>
     </body>
 <!--
 Recuperation des javascript bootstrap et jquery
