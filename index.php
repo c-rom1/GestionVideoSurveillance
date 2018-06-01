@@ -13,7 +13,7 @@ $function = new functionClass();
 ?>
 <!DOCTYPE html>
 <!--
-Ecran de recuperation de video et photo 
+Ecran de recuperation des videos et photos 
 issues de la camera de surveillance
 @author Rhum1
 -->
